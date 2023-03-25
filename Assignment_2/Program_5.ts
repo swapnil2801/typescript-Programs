@@ -6,7 +6,7 @@
 
 var Address : string = "Pune kothrud Marvellous Infosystem";
 
-function ChkString(value : string) : boolean
+function ChkStringX(value : string) : boolean
 {
     let flag : boolean = false;
 
@@ -24,7 +24,7 @@ function ChkString(value : string) : boolean
     return flag;
 }
 
-var bRet = ChkString(Address);
+var bRet = ChkStringX(Address);
 
 if(bRet == true)
 {
